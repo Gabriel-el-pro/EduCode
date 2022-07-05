@@ -1,5 +1,5 @@
 # EduCode
-Software educativo para programación básica en Pseudocodigo
+Software educativo para programación básica en Pseudocodigo.
 
 
 # Integrantes
