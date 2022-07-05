@@ -2,7 +2,7 @@
 Software educativo para programación básica en Pseudocodigo
 
 
-#Integrantes
+### Integrantes
 ## - Juan Gabriel  Salgado
 ## - Pedro Florez Villadiego
 ## - Alejandro Ávila Buelvas
