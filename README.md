@@ -7,3 +7,8 @@ Software educativo para programación básica en Pseudocodigo.
 ### - Pedro Florez Villadiego
 ### - Alejandro Ávila Buelvas
 ### - Daniel Casarrubia Madera
+
+
+# Para ver el proyecto debe ejecutar el siguiente comando
+
+ ##   // npm install //
