@@ -1,16 +1,18 @@
 express = require('express')
 const app = express()
-const controller =require("./Controller")
+const {controller} =require("./Controller")
 
 app.get('/',function(req, res){
   res.send('Hello World!')
 })
 
 app.get('/usuario',function(req, res){
-    let usuarios=[
+   /* let usuarios=[
         {name:"Gabriel",contrasena:"dsfhsfdsdjjs"},
         {name:"Pedro Florez",contrasena:"dsfhsfdsdjjs"}
 ]  
+res.send(usuarios)*/
+controller.getUsuarios(res);
   })
 
   exports.app=app;

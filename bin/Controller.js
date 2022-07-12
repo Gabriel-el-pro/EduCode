@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-
+const usuario = require("./modals/usuarios");
 class Controller{
     constructor(){
        this.connect();
@@ -14,6 +14,12 @@ class Controller{
         } catch(e){
         console.error(e)
         }
+    }
+    getUsuarios(res){
+      usuario.find({},(err, usuarios)=>{
+        if(err) throw err;
+        res.send(usuarios)
+      })
     }
 }
 
