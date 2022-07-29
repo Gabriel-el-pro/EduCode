@@ -1,9 +1,12 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 const usuarioSchema= new Schema({
-nickname:String,
+nombre_usuario:String,
 contrasena:String,
-picture:String,
+persona:{
+        type: Schema.Types.ObjectId,
+        ref:"persona"
+    }
 })
 var usuario = mongoose.model('usuario',usuarioSchema);
 module.exports=usuario;
